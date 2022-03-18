@@ -28,7 +28,7 @@ status = sys.argv[10]
 cloud_config= {
         'secure_connect_bundle': 'secure-connect-co2as-db.zip'
 }
-auth_provider = PlainTextAuthProvider('uqaTtJYjNLkcdZCupsqtfnQe', 'vzYk+Oir.Z9ynHWg9rFNJdEo8taLJGXST1eYulSPz+GLqs5qW90DhT0A_Bb+Z2TMjf-5GdQ60ltYw9hzusPdIDa631konwWxWOJB9cRFOoW6Fn,YJBD0NUm8qqSvd75z')
+auth_provider = PlainTextAuthProvider('...', '...')
 cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
 session = cluster.connect()
 
