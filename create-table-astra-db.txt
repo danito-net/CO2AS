@@ -1,0 +1,1 @@
+CREATE TABLE co2as (id text, uuid timeuuid, dtz timestamp, device text, label text, latitude text, longitude text, altitude text, co2 text, temp text, note text, status int, PRIMARY KEY (id, uuid)) WITH CLUSTERING ORDER BY (uuid DESC);
